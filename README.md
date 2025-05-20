@@ -164,4 +164,8 @@ Bali, A. P. S., Tam, G. K., Siris, A., Andrews, G., Lai, Y., Tiddeman, B., & Ffr
 }
 ```
 
+## Acknowledgement
+
+This research was supported by Coleg Cymrage Cenedlaethol Small Grant 2017, Cherish-DE Escalator Fund 2019, 2021(1RR, 52E), Swansea University SPIN fund, Wales Network Innovation Small Grant 2023 and EPSRC IAA Fund 2024. We would like to thank all annotators and anonymized participants for their contributions to this project.
+
 [![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)

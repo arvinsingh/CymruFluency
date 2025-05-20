@@ -1,1 +1,167 @@
-# CymruFluency
+# <h2 align='center'>CymruFluency - A Fusion Technique and a 4D Welsh Dataset for Welsh Fluency Analysis</h2>
+
+<div align="center">
+  <a href="https://doi.org/10.5281/zenodo.15397513">
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15397513.svg" alt="DOI">
+  </a>
+</div>
+
+<div align='center'>
+  <a href="#"><strong>Arvinder Pal Singh Bali</strong></a><sup>1</sup>
+  ·
+  <a href="#"><strong>Gary K.L. Tam</strong></a><sup>1</sup>
+  ·
+  <a href="#"><strong>Avishek Siris</strong></a><sup>1</sup>
+  ·
+  <a href="#"><strong>Gareth Andrews</strong></a><sup>1</sup>
+  ·
+  <a href="#"><strong>Yukun Lai</strong></a><sup>2</sup>
+  ·
+  <a href="#"><strong>Bernie Tiddeman</strong></a><sup>3</sup>
+  ·
+  <a href="#"><strong>Gwenno Ffrancon</strong></a><sup>4</sup>
+</div>
+<div align='center'>
+  <sub>
+    <sup>1</sup> Swansea University · 
+    <sup>2</sup> Cardiff University · 
+    <sup>3</sup> Aberystwyth University · 
+    <sup>4</sup> Academi Hywel Teifi, Swansea University
+  </sub>
+</div>
+
+> [!Note] 
+> Accepted at *Advanced Concepts for Intelligent Vision Systems (ACIVS 2025)*
+
+This project introduces a novel dataset and method for evaluating Welsh language fluency using multimodal fusion techniques.
+
+## Capture steps
+
+### 1. Sequence capture with 3dMD machine
+<p align="center">
+  <img src="assets/Fluent.png" alt="Fluent Speaker" width="45%" style="margin-right: 10px;">
+  <img src="assets/Nonfluent.png" alt="Non-Fluent Speaker" width="45%">
+</p>
+
+<p align="center">
+  <b>Fluent Speaker</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Non-Fluent Speaker</b>
+</p>
+Note the exaggerated mouth movement in fluent speakers.
+
+### 2. 3D reconstruction
+<div align="center">
+  <video style="object-fit: cover;" controls loop src="https://github.com/user-attachments/assets/140c9079-a195-4c05-aec0-7b9876048030" muted="false"></video>
+  <p><strong>Subject uttering Welsh phrase “Gwybodaeth angenrheidiol” (Tr. EN: Necessary information; IPA: /ˈɡʊɨ̯bɔðaɪθ aŋɛnˈhreɪ̯djɔl/)</strong></p>
+</div>
+
+### 3. Landmarking process
+<p align="center">
+  <img src="assets/MeshHeadAnnotation.png" alt="3D mesh" width="60%">
+  
+  <p align="center"><strong>3D mesh quality and landmarking in progress.</strong></p>
+</p>
+
+### 4. Alignment
+<p align="center">
+  <img src="assets/LandmarkAlignment.png" alt="Aligning landmarks" width="60%">
+  
+  <p align="center"><strong>Aligning landmarks to mitigate head movement.</strong></p>
+</p>
+
+## Dataset
+
+The full dataset is available on [Zenodo.](https://doi.org/10.5281/zenodo.15397513)
+
+The dataset is split in four parts and can be accessed through the 4 versions of the repository.
+For more information on content and structure of the dataset, please read [dataset description.](./DATASET.md)
+
+> [!important]
+> If you use this dataset or related resources, please cite as:
+
+```
+Bali, A. P. S., Tam, G. K., Siris, A., Andrews, G., Lai, Y., Tiddeman, B., & Ffrancon, G. (2025). Dataset and code for "CymruFluency - A fusion technique and a 4D Welsh dataset for Welsh fluency analysis" [Data set]. Advanced Concepts for Intelligent Vision Systems (ACIVS), Japan. Zenodo. DOI https://doi.org/10.5281/zenodo.15397513
+```
+
+```bibtex
+@dataset{bali_2025_15397513,
+  author       = {Bali, Arvinder Pal Singh and
+                  Tam, Gary KL and
+                  Siris, Avishek and
+                  Andrews, Gareth and
+                  Lai, Yukun and
+                  Tiddeman, Bernie and
+                  Ffrancon, Gwenno},
+  title        = {Dataset and code for "CymruFluency - A fusion technique and a 4D Welsh dataset for Welsh fluency analysis"},
+  month        = may,
+  year         = 2025,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.15397513},
+  url          = {https://doi.org/10.5281/zenodo.15397513},
+}
+```
+
+## Installation
+
+1. Clone this repo:
+    ```bash
+    git clone https://github.com/arvinsingh/CymruFluency.git
+    cd CymruFluency
+    ```
+
+2. Install dependencies:
+    ```bash
+    uv sync
+    ```
+
+3. Launch the notebooks:
+    ```bash
+    jupyter notebook
+    ```
+
+## Notebooks Overview
+
+- `Data Exploration and Analysis.ipynb` - Visualize and explore dataset stats  
+- `Experiment Audio Landmarks.ipynb` - Train and eval unimodal models  
+- `Experiment Model Training.ipynb` - Train and eval multimodal models  
+- `Welsh vs English.ipynb` - Comparative study of fluency in Welsh vs English dataset
+
+<p align="center">
+  <img src="assets/Pipeline.png" alt="Architecture Pipeline" width="90%">
+  
+  <p align="center"><strong>Architecture Pipeline.</strong></p>
+</p>
+
+## License
+
+This dataset is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License.](LICENSE)
+Only for research purposes.
+
+## Citation [Pending publication]
+
+Please cite the paper as
+
+```
+Bali, A. P. S., Tam, G. K., Siris, A., Andrews, G., Lai, Y., Tiddeman, B., & Ffrancon, G. (2025). CymruFluency - A fusion technique and a 4D Welsh dataset for Welsh fluency analysis. Advanced Concepts for Intelligent Vision Systems (ACIVS), Japan. 
+```
+
+```bibtex
+@inproceedings{bali_2025_cymrufluency,
+  author       = {Arvinder Pal Singh Bali and
+                  Gary K. L. Tam and
+                  Avishek Siris and
+                  Gareth Andrews and
+                  Yukun Lai and
+                  Bernie Tiddeman and
+                  Gwenno Ffrancon},
+  title        = {CymruFluency - A fusion technique and a 4D Welsh dataset for Welsh fluency analysis},
+  booktitle    = {Advanced Concepts for Intelligent Vision Systems (ACIVS)},
+  year         = {2025},
+  address      = {Japan},
+  publisher    = {Springer (Lecture Notes in Computer Science, LNCS)},
+  doi          = {TBD},
+  url          = {TBD}
+}
+```
+
+[![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)

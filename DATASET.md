@@ -29,8 +29,7 @@ The dataset is split into the following archives for easier distribution:
 4. `CymruFluency-part4.zip` → participants 28–33  
 5. `CymruFluency-Audios.zip` → `.wav` files for all participants  
 6. `CymruFluency-Landmarks.zip` → `.ljson` landmark files archived in `.7z` format  
-7. `CymruFluency-main.zip` → project code. For the latest version and how to run the code, refer to the GitHub repository:  
-   [https://github.com/arvinsingh/CymruFluency](https://github.com/arvinsingh/CymruFluency)
+7. `CymruFluency-main.zip` → project code.
 
 Each participant folder is named consistently and contains 10 utterance-specific archives (either `.7z` or raw `.wav` depending on the archive).
 

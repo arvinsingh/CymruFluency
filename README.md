@@ -1,10 +1,12 @@
 # <h2 align='center'>CymruFluency - A Fusion Technique and a 4D Welsh Dataset for Welsh Fluency Analysis</h2>
 
+<!--
 <div align="center">
   <a href="https://doi.org/10.5281/zenodo.15397513">
     <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15397513.svg" alt="DOI">
   </a>
 </div>
+-->
 
 <div align='center'>
   <a href="#"><strong>Arvinder Pal Singh Bali</strong></a><sup>1</sup>
@@ -71,35 +73,10 @@ Note the exaggerated mouth movement in fluent speakers.
 
 ## Dataset
 
-The full dataset is available on [Zenodo.](https://doi.org/10.5281/zenodo.15397513)
+Full dataset is available on [Zenodo.](https://doi.org/10.5281/zenodo.15397513)
 
-The dataset is split in four parts and can be accessed through the 4 versions of the repository.
+The dataset is split in four parts and can be accessed through the four versions of the repository.
 For more information on content and structure of the dataset, please read [dataset description.](./DATASET.md)
-
-> [!important]
-> If you use this dataset or related resources, please cite as:
-
-```
-Bali, A. P. S., Tam, G. K., Siris, A., Andrews, G., Lai, Y., Tiddeman, B., & Ffrancon, G. (2025). Dataset and code for "CymruFluency - A fusion technique and a 4D Welsh dataset for Welsh fluency analysis" [Data set]. Advanced Concepts for Intelligent Vision Systems (ACIVS), Japan. Zenodo. DOI https://doi.org/10.5281/zenodo.15397513
-```
-
-```bibtex
-@dataset{bali_2025_15397513,
-  author       = {Bali, Arvinder Pal Singh and
-                  Tam, Gary KL and
-                  Siris, Avishek and
-                  Andrews, Gareth and
-                  Lai, Yukun and
-                  Tiddeman, Bernie and
-                  Ffrancon, Gwenno},
-  title        = {Dataset and code for "CymruFluency - A fusion technique and a 4D Welsh dataset for Welsh fluency analysis"},
-  month        = may,
-  year         = 2025,
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.15397513},
-  url          = {https://doi.org/10.5281/zenodo.15397513},
-}
-```
 
 ## Installation
 
@@ -135,15 +112,13 @@ Bali, A. P. S., Tam, G. K., Siris, A., Andrews, G., Lai, Y., Tiddeman, B., & Ffr
 ## License
 
 This dataset is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License.](LICENSE)
-Only for research purposes.
+
+Research purposes only.
 
 ## Citation [Pending publication]
 
-Please cite the paper as
-
-```
-Bali, A. P. S., Tam, G. K., Siris, A., Andrews, G., Lai, Y., Tiddeman, B., & Ffrancon, G. (2025). CymruFluency - A fusion technique and a 4D Welsh dataset for Welsh fluency analysis. Advanced Concepts for Intelligent Vision Systems (ACIVS), Japan. 
-```
+> [!important]
+> If you use our dataset and code, please use the following two bibtex for citation:
 
 ```bibtex
 @inproceedings{bali_2025_cymrufluency,
@@ -163,6 +138,25 @@ Bali, A. P. S., Tam, G. K., Siris, A., Andrews, G., Lai, Y., Tiddeman, B., & Ffr
   url          = {TBD}
 }
 ```
+
+```bibtex
+@dataset{bali_2025_dataset,
+  author       = {Bali, Arvinder Pal Singh and
+                  Tam, Gary KL and
+                  Siris, Avishek and
+                  Andrews, Gareth and
+                  Lai, Yukun and
+                  Tiddeman, Bernie and
+                  Ffrancon, Gwenno},
+  title        = {Dataset and code for "CymruFluency - A fusion technique and a 4D Welsh dataset for Welsh fluency analysis"},
+  month        = may,
+  year         = 2025,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.15397513},
+  url          = {https://doi.org/10.5281/zenodo.15397513},
+}
+```
+
 
 ## Acknowledgement
 

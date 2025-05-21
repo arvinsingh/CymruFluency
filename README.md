@@ -41,13 +41,18 @@ This project introduces a novel dataset and method for evaluating Welsh language
 
 ### 1. Sequence capture with 3dMD machine
 <p align="center">
-  <img src="assets/Fluent.png" alt="Fluent Speaker" width="45%" style="margin-right: 10px;">
-  <img src="assets/Nonfluent.png" alt="Non-Fluent Speaker" width="45%">
-</p>
-
-<p align="center">
-  <b>Fluent Speaker</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Non-Fluent Speaker</b>
+  <table>
+    <tr>
+      <td align="center">
+        <img src="assets/Fluent.png" alt="Fluent Speaker" width="100%"/>
+        <br/><b>Fluent Speaker</b>
+      </td>
+      <td align="center">
+        <img src="assets/Nonfluent.png" alt="Non-Fluent Speaker" width="100%"/>
+        <br/><b>Non-Fluent Speaker</b>
+      </td>
+    </tr>
+  </table>
 </p>
 Note the exaggerated mouth movement in fluent speakers.
 
@@ -160,6 +165,6 @@ Research purposes only.
 
 ## Acknowledgement
 
-This research was supported by Coleg Cymrage Cenedlaethol Small Grant 2017, Cherish-DE Escalator Fund 2019, 2021(1RR, 52E), Swansea University SPIN fund, Wales Network Innovation Small Grant 2023 and EPSRC IAA Fund 2024. We would like to thank all annotators and anonymized participants for their contributions to this project.
+This research was supported by Coleg Cymraeg Cenedlaethol Small Grant 2017, Cherish-DE Escalator Fund 2019, 2021(1RR, 52E), Swansea University SPIN fund, Wales Network Innovation Small Grant 2023 and EPSRC IAA Fund 2024. We would like to thank all annotators and anonymized participants for their contributions to this project.
 
 [![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)

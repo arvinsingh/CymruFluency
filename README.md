@@ -34,9 +34,13 @@
 
 > [!Note] 
 > Accepted at *Advanced Concepts for Intelligent Vision Systems (ACIVS 2025)*
+>
+>  Post-print version is avaliable [HERE.](https://drive.google.com/file/d/1GaeLEE8Wn7J24R3zMerkaAxjjBL8YkIY/view?usp=sharing)
 
 This project introduces a novel dataset and method for evaluating Welsh language fluency using multimodal fusion techniques.
 
+### Abstract
+> Welsh is a linguistically rich yet under-resourced minority language. Despite its cultural significance, automated fluency assessment remains largely unexplored due to limited datasets and tools. Existing models focus on high-resource languages, leaving Welsh without sufficient multi-modal resources. To address this, we introduce CymruFluency, the first 4D dataset for Welsh fluency assessment, capturing both audio and 3D lip movements with expert-annotated fluency scores. Building on this, we propose a multi-modal fluency classification framework that combines audio features (mel spectrograms) and manually annotated 3D lip landmarks. Our fusion approach significantly improves fluency prediction over unimodal models, emphasizing the critical role of 3D lip dynamics in Welsh learning. This research advances minority language processing by integrating articulatory features into fluency evaluation, offering a powerful tool for Welsh language learning, assessment, and preservation.
 ## Capture steps
 
 ### 1. Sequence capture with 3dMD machine

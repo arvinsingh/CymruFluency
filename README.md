@@ -1,4 +1,4 @@
-# <h2 align='center'>CymruFluency - A Fusion Technique and a 4D Welsh Dataset for Welsh Fluency Analysis</h2>
+# [<h2 align='center'>CymruFluency - A Fusion Technique and a 4D Welsh Dataset for Welsh Fluency Analysis</h2>](https://cronfa.swan.ac.uk/Record/cronfa69565)
 
 <!--
 <div align="center">
@@ -9,11 +9,11 @@
 -->
 
 <div align='center'>
-  <a href="#"><strong>Arvinder Pal Singh Bali</strong></a><sup>1</sup>
+  <a href="https://www.swansea.ac.uk/staff/science-and-engineering/"><strong>Arvinder Pal Singh Bali</strong></a><sup>1</sup>
   ·
-  <a href="#"><strong>Gary K.L. Tam</strong></a><sup>1</sup>
+  <a href="https://sites.google.com/site/csgarykl/"><strong>Gary K.L. Tam</strong></a><sup>1</sup>
   ·
-  <a href="#"><strong>Avishek Siris</strong></a><sup>1</sup>
+  <a href="https://www.swansea.ac.uk/staff/science-and-engineering/"><strong>Avishek Siris</strong></a><sup>1</sup>
   ·
   <a href="#"><strong>Gareth Andrews</strong></a><sup>1</sup>
   ·
@@ -33,9 +33,9 @@
 </div>
 
 > [!Note] 
-> Accepted at *Advanced Concepts for Intelligent Vision Systems (ACIVS 2025)*
+> Published in *Advanced Concepts for Intelligent Vision Systems (ACIVS 2025) / Lecture Notes in Computer Science*
 >
->  Post-print version is avaliable [HERE.](https://drive.google.com/file/d/1GaeLEE8Wn7J24R3zMerkaAxjjBL8YkIY/view?usp=sharing)
+>  Full paper is avaliable [HERE.](https://cronfa.swan.ac.uk/Record/cronfa69565)
 
 This project introduces a novel dataset and method for evaluating Welsh language fluency using multimodal fusion techniques.
 
@@ -82,7 +82,8 @@ Note the exaggerated mouth movement in fluent speakers.
 
 ## Dataset
 
-Full dataset is available on [Zenodo.](https://doi.org/10.5281/zenodo.15397513)
+> [!NOTE]
+> Full dataset is available on [Zenodo.](https://doi.org/10.5281/zenodo.15397513)
 
 The dataset is split in four parts and can be accessed through the four versions of the repository.
 For more information on content and structure of the dataset, please read [dataset description.](./DATASET.md)
@@ -168,6 +169,8 @@ Research purposes only.
 
 
 ## Acknowledgement
+
+This is part of a major ongoing project led by Dr Gary K.L. Tam.
 
 This research was supported by Coleg Cymraeg Cenedlaethol Small Grant 2017, Cherish-DE Escalator Fund 2019, 2021(1RR, 52E), Swansea University SPIN fund, Wales Network Innovation Small Grant 2023 and EPSRC IAA Fund 2024. We would like to thank all annotators and anonymized participants for their contributions to this project.
 

@@ -1,4 +1,4 @@
-# [<h2 align='center'>CymruFluency - A Fusion Technique and a 4D Welsh Dataset for Welsh Fluency Analysis</h2>](https://cronfa.swan.ac.uk/Record/cronfa69565)
+# [<h2 align='center'>CymruFluency - A Fusion Technique and a 4D Welsh Dataset for Welsh Fluency Analysis</h2>](https://doi.org/10.1007/978-3-032-07343-3_8)
 
 <!--
 <div align="center">
@@ -131,22 +131,30 @@ Research purposes only.
 > If you use our dataset and code, please use the following two bibtex for citation:
 
 ```bibtex
-@inproceedings{bali_2025_cymrufluency,
-  author       = {Arvinder Pal Singh Bali and
-                  Gary K. L. Tam and
-                  Avishek Siris and
-                  Gareth Andrews and
-                  Yukun Lai and
-                  Bernie Tiddeman and
-                  Gwenno Ffrancon},
-  title        = {CymruFluency - A fusion technique and a 4D Welsh dataset for Welsh fluency analysis},
-  booktitle    = {Advanced Concepts for Intelligent Vision Systems (ACIVS)},
-  year         = {2025},
-  address      = {Japan},
-  publisher    = {Springer (Lecture Notes in Computer Science, LNCS)},
-  doi          = {TBD},
-  url          = {TBD}
+@inproceedings{bali_2026_cymrufluency,
+  author       = {Bali, Arvinder Pal Singh and
+                  Tam, Gary KL and
+                  Siris, Avishek and
+                  Andrews, Gareth and
+                  Lai, Yukun and
+                  Tiddeman, Bernie and
+                  Ffrancon, Gwenno},
+  editor       = {Blanc-Talon, Jacques and
+                  Delmas, Patrice and
+                  Takahashi, Hiroki and
+                  Minami, Yasuhiro},
+  title        = {CymruFluency - A Fusion Technique and a 4D Welsh Dataset for Welsh Fluency Analysis},
+  booktitle    = {Advanced Concepts for Intelligent Vision Systems},
+  pages        = {96--108},
+  year         = 2026,
+  publisher    = {Springer Nature Switzerland},
+  address      = {Cham},
+  isbn         = {978-3-032-07343-3},
+  doi          = {10.1007/978-3-032-07343-3_8},
+  url          = {https://doi.org/10.1007/978-3-032-07343-3_8},
 }
+
+
 ```
 
 ```bibtex

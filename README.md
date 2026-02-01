@@ -1,12 +1,11 @@
 # [<h2 align='center'>CymruFluency - A Fusion Technique and a 4D Welsh Dataset for Welsh Fluency Analysis</h2>](https://doi.org/10.1007/978-3-032-07343-3_8)
 
-<!--
-<div align="center">
-  <a href="https://doi.org/10.5281/zenodo.15397513">
-    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.15397513.svg" alt="DOI">
-  </a>
-</div>
--->
+
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Datasets-yellow)](https://huggingface.co/datasets/arvinsingh/welsh-speech-dataset)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15397513.svg)](https://doi.org/10.5281/zenodo.15397513)
+[![Springer](https://img.shields.io/badge/Springer-10.1007%2F978--3--032--07343--3_8-green)](https://doi.org/10.1007/978-3-032-07343-3_8)
+
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 <div align='center'>
   <a href="https://www.swansea.ac.uk/staff/science-and-engineering/"><strong>Arvinder Pal Singh Bali</strong></a><sup>1</sup>

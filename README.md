@@ -124,7 +124,7 @@ This dataset is licensed under a [Creative Commons Attribution-NonCommercial 4.0
 
 Research purposes only.
 
-## Citation [Pending publication]
+## Citation
 
 > [!important]
 > If you use our dataset and code, please use the following two bibtex for citation:

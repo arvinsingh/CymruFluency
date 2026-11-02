@@ -62,7 +62,7 @@ Note the exaggerated mouth movement in fluent speakers.
 ### 2. 3D reconstruction
 <div align="center">
   <video style="object-fit: cover;" controls loop src="https://github.com/user-attachments/assets/140c9079-a195-4c05-aec0-7b9876048030" muted="false"></video>
-  <p><strong>Subject uttering Welsh phrase “Gwybodaeth angenrheidiol” (Tr. EN: Necessary information; IPA: /ˈɡʊɨ̯bɔðaɪθ aŋɛnˈhreɪ̯djɔl/)</strong></p>
+  <p><strong>Subject uttering Welsh phrase “Gwybodaeth angenrheidiol” (Tr. EN: Necessary information; IPA: /ˈɡʊɨ̯bɔdaɪθ aŋɛnˈhreɪ̯djɔl/)</strong></p>
 </div>
 
 ### 3. Landmarking process
